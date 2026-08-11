@@ -1,0 +1,41 @@
+name: Probe leaderboard source
+
+# Reconnaissance only: reports the structure of llm-stats.com to the job log so
+# the parser can be written against what is actually served. Reads nothing,
+# writes nothing to the repo. Delete this workflow once the parser is settled.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [claude/llm-leaderboard-power-bi-geh336]
+    paths:
+      - 'scraper/probe.py'
+      - '.github/workflows/probe.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Probe
+        run: python scraper/probe.py
+
+      - name: Upload captured payloads
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: probe-output
+          path: probe-output/
+          retention-days: 7
