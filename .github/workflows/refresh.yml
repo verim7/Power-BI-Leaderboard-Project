@@ -52,10 +52,13 @@ jobs:
         run: |
           git config user.name  "leaderboard-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- data/; then
+          # Stage first: git diff ignores untracked files, so on the very
+          # first run - when data/ does not exist in the repo yet - an
+          # unstaged check reports "no change" and the seed never lands.
+          git add -A data/
+          if git diff --cached --quiet -- data/; then
             echo "No change in the leaderboard today."
             exit 0
           fi
-          git add data/
           git commit -m "Refresh leaderboard data ($(date -u +%Y-%m-%d))"
           git push
