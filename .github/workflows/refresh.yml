@@ -1,0 +1,66 @@
+name: Refresh leaderboard data
+
+# Publishes data/leaderboard_latest.csv, which Power BI reads.
+#
+#   schedule / manual -> scrape, validate, commit if the numbers moved
+#   push              -> scrape, validate, report, commit NOTHING
+#
+# The split keeps a push from triggering a commit that triggers a push, and
+# means a broken parser is caught on the branch before it can overwrite good
+# data. If validation fails the job fails and the last good CSV stays put:
+# a stale dashboard is recoverable, a confidently wrong one is not.
+
+on:
+  schedule:
+    - cron: '15 5 * * *'   # 05:15 UTC daily, ahead of European working hours
+  workflow_dispatch:
+  push:
+    branches: [claude/llm-leaderboard-power-bi-geh336]
+    paths:
+      - 'scraper/**'
+      - '.github/workflows/refresh.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-leaderboard
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt pytest
+
+      - name: Unit tests (offline, no network)
+        run: python -m pytest scraper/tests -q
+
+      - name: Scrape and report (push only, writes nothing)
+        if: github.event_name == 'push'
+        run: python scraper/fetch_leaderboard.py --report
+
+      - name: Scrape and publish
+        if: github.event_name != 'push'
+        run: python scraper/fetch_leaderboard.py
+
+      - name: Commit if the numbers moved
+        if: github.event_name != 'push'
+        run: |
+          git config user.name  "leaderboard-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/; then
+            echo "No change in the leaderboard today."
+            exit 0
+          fi
+          git add data/
+          git commit -m "Refresh leaderboard data ($(date -u +%Y-%m-%d))"
+          git push

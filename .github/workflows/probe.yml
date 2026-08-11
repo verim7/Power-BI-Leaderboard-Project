@@ -4,13 +4,10 @@ name: Probe leaderboard source
 # the parser can be written against what is actually served. Reads nothing,
 # writes nothing to the repo. Delete this workflow once the parser is settled.
 
+# Manual only. Run this when llm-stats.com changes shape and the parser
+# needs to be rewritten against a fresh view of the payload.
 on:
   workflow_dispatch:
-  push:
-    branches: [claude/llm-leaderboard-power-bi-geh336]
-    paths:
-      - 'scraper/probe.py'
-      - '.github/workflows/probe.yml'
 
 permissions:
   contents: read
