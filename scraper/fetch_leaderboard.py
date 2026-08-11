@@ -30,7 +30,13 @@ from typing import Any, Iterator
 import requests
 
 sys.path.insert(0, str(Path(__file__).parent))
-from schema import COLUMNS, SLIDE_REFERENCE, ModelRow  # noqa: E402
+from schema import (  # noqa: E402
+    COLUMNS,
+    DEVIATIONS,
+    KNOWN_DIVERGENCES,
+    SLIDE_REFERENCE,
+    ModelRow,
+)
 
 URL = "https://llm-stats.com/leaderboards/llm-leaderboard"
 UA = (
@@ -199,14 +205,24 @@ def to_rows(records: list[dict[str, Any]], as_of: str) -> list[ModelRow]:
 # --------------------------------------------------------------------------
 
 def parity_report(rows: list[ModelRow]) -> tuple[int, int, list[str]]:
-    """Compare against the December 2025 slide. Mapping check, not a freshness check."""
+    """Compare against the December 2025 slide.
+
+    This checks the field *mapping*, not freshness. Three outcomes per value:
+    a match; a divergence already documented in docs/DEVIATIONS.md; or an
+    unexplained mismatch. Only the third kind counts against the parity floor,
+    which keeps the check sensitive to a column moving without wedging the
+    pipeline every time llm-stats revises a score.
+
+    Returns (checked, passed, notes) where `passed` counts matches plus
+    documented divergences.
+    """
     by_name = {r.model: r for r in rows}
     checked = passed = 0
     notes: list[str] = []
     for name, expected in SLIDE_REFERENCE.items():
         row = by_name.get(name)
         if row is None:
-            notes.append(f"  {name}: NOT ON THE LEADERBOARD ANYMORE (fine - models retire)")
+            notes.append(f"  {name}: no longer on the leaderboard (models retire)")
             continue
         for field, want in expected.items():
             got = getattr(row, field)
@@ -214,17 +230,24 @@ def parity_report(rows: list[ModelRow]) -> tuple[int, int, list[str]]:
             if want is None and got is None:
                 passed += 1
                 continue
-            if want is None or got is None:
-                notes.append(f"  {name}.{field}: slide={want} scraped={got}  <-- null mismatch")
-                continue
-            if isinstance(want, str):
-                ok = str(got).lower() == want.lower()
-            else:
-                ok = abs(float(got) - float(want)) < 0.06
-            if ok:
+            if want is not None and got is not None:
+                if isinstance(want, str):
+                    ok = str(got).lower() == want.lower()
+                else:
+                    ok = abs(float(got) - float(want)) < 0.06
+                if ok:
+                    passed += 1
+                    continue
+            code = KNOWN_DIVERGENCES.get((name, field))
+            if code:
                 passed += 1
+                notes.append(
+                    f"  {name}.{field}: slide={want} now={got}  [{code}] {DEVIATIONS[code][:60]}..."
+                )
             else:
-                notes.append(f"  {name}.{field}: slide={want} scraped={got}  <-- MISMATCH")
+                notes.append(
+                    f"  {name}.{field}: slide={want} now={got}  <-- UNEXPLAINED, investigate"
+                )
     return checked, passed, notes
 
 

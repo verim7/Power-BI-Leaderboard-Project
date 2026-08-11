@@ -115,6 +115,19 @@ def test_parity_against_the_slide():
     assert passed == checked > 0
 
 
+def test_known_divergence_is_reported_but_not_an_unexplained_mismatch():
+    """D1: the GA Gemini 2.5 Pro scores differ from the slide, by design."""
+    ga = dict(
+        GEMINI, model_id="gemini-2.5-pro", name="Gemini 2.5 Pro",
+        gpqa_score=0.83, aime_2025_score=0.83, input_price=1.25, output_price=10.0,
+    )
+    rows = to_rows(extract_records(build_html([ga])), "2026-08-11")
+    checked, passed, notes = parity_report(rows)
+    assert not [n for n in notes if "UNEXPLAINED" in n]
+    assert [n for n in notes if "[D1]" in n], notes
+    assert passed == checked   # documented divergences still count as passing
+
+
 def test_sanity_check_rejects_a_broken_parse():
     assert sanity_check([]) != []
     rows = to_rows(extract_records(build_html([GEMINI])), "2026-08-11")

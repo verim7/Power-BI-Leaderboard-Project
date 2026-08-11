@@ -64,6 +64,34 @@ SLIDE_REFERENCE = {
     "Gemini 2.5 Pro":  {"organization": "Google",    "gpqa": 86.4, "aime_2025": 88.0,  "input_usd_per_m": 1.25, "output_usd_per_m": 10.00},
 }
 
+# Reference values that no longer match, each with a reason. Documented in
+# docs/DEVIATIONS.md. These are reported but do not count as unexplained
+# mismatches, so the mapping check stays sensitive to real breakage.
+#
+# Removing an entry here is a claim that the divergence went away - the next
+# run will tell you whether that is true.
+KNOWN_DIVERGENCES = {
+    ("Gemini 2.5 Pro", "gpqa"): "D1",
+    ("Gemini 2.5 Pro", "aime_2025"): "D1",
+    ("Gemini 3 Pro", "input_usd_per_m"): "D2",
+    ("Gemini 3 Pro", "output_usd_per_m"): "D2",
+    ("Grok-4", "input_usd_per_m"): "D2",
+    ("Grok-4", "output_usd_per_m"): "D2",
+    ("Claude Opus 4.5", "input_usd_per_m"): "D2",
+    ("Claude Opus 4.5", "output_usd_per_m"): "D2",
+}
+
+DEVIATIONS = {
+    "D1": "Slide row 'Gemini 2.5 Pro' splices two models: the 86.4/88.0 scores "
+          "belong to 'Gemini 2.5 Pro Preview 06-05', the 1.25/10.00 prices to "
+          "the GA 'Gemini 2.5 Pro' (83.0/83.0). The pipeline uses one model "
+          "consistently.",
+    "D2": "llm-stats no longer publishes pricing for these models (87 of 340 "
+          "records carry a price). Rendered 'n/a', as the slide already does "
+          "for Grok-4 Heavy - never as 0.00.",
+}
+
+
 # The eight rows the slide prints, in slide order. deck/update_slide.py uses
 # this when the deck should keep showing exactly this shortlist.
 SLIDE_MODELS = [
