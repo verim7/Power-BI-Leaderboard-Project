@@ -15,7 +15,7 @@ on:
     - cron: '15 5 * * *'   # 05:15 UTC daily, ahead of European working hours
   workflow_dispatch:
   push:
-    branches: [claude/llm-leaderboard-power-bi-geh336]
+    branches: [main, 'claude/**']
     paths:
       - 'scraper/**'
       - '.github/workflows/refresh.yml'

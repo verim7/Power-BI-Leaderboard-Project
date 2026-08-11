@@ -96,9 +96,10 @@ copy and leaves the original alone.
 
 ## Before this goes live
 
-**Scheduled workflows only run on a repository's default branch.** The daily
-refresh starts working when this branch is merged into `main`; until then use
-the manual run.
+The daily refresh runs from `main` — scheduled workflows only ever run on a
+repository's default branch. GitHub also disables a schedule after 60 days
+with no repository activity, and the daily data commits are enough to keep it
+alive, but a long quiet spell is worth checking after.
 
 The training deck is private and confidential material. This repository is
 public, so the `.pptx`, exported slide images, and any branded asset must
