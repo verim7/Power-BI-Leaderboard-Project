@@ -100,9 +100,10 @@ copy and leaves the original alone.
 refresh starts working when this branch is merged into `main`; until then use
 the manual run.
 
-The deck is marked *"© 2026 Synpulse. Private and confidential"*. Do not commit
-the `.pptx`, exported slide images, or any Synpulse-branded asset — see the
-`.gitignore`.
+The training deck is private and confidential material. This repository is
+public, so the `.pptx`, exported slide images, and any branded asset must
+never be committed here — see the `.gitignore`. Only the deck updater
+script lives in the repo; it runs against a deck kept outside it.
 
 ## Source and attribution
 

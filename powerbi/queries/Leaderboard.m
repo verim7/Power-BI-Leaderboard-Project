@@ -4,16 +4,15 @@
 // Paste into Power BI Desktop: Home > Transform data > New Source > Blank Query
 // > Advanced Editor, then replace the contents with this.
 //
-// TWO SOURCE MODES, because the repository is currently private:
+// The repository is public, so the default path is anonymous and needs no
+// token: no secret in the .pbix, nothing to rotate, and scheduled refresh in
+// the Service works without a gateway.
 //
-//   UseGitHubApi = false  ->  raw.githubusercontent.com, anonymous.
-//                             Requires the repo (or a data-only repo) to be
-//                             PUBLIC. Simplest by far: no token, no rotation,
-//                             and scheduled refresh in the Service just works.
-//
-//   UseGitHubApi = true   ->  GitHub Contents API with a fine-grained PAT.
-//                             Keeps the repo private, at the cost of a secret
-//                             living in the .pbix and needing rotation.
+//   UseGitHubApi = false  ->  raw.githubusercontent.com, anonymous  (default)
+//   UseGitHubApi = true   ->  GitHub Contents API with a fine-grained PAT,
+//                             for a future in which the repo goes private
+//                             again. The token then lives in the .pbix and
+//                             has to be rotated before it expires.
 //
 // The base URL is a literal and the path is passed via RelativePath on purpose.
 // Power BI refuses to schedule refresh for a "dynamic data source" - one whose
@@ -27,11 +26,12 @@ let
     // query works when pasted as-is.
     Owner        = "verim7",
     Repo         = "Power-BI-Leaderboard-Project",
-    Branch       = "main",
+    Branch       = "main",   // the branch the refresh workflow commits to
     FilePath     = "data/leaderboard_latest.csv",
-    UseGitHubApi = true,
-    // Fine-grained PAT, read-only, Contents: Read for this repo only.
-    // Leave empty when UseGitHubApi = false.
+    UseGitHubApi = false,
+    // Only used when UseGitHubApi = true: a fine-grained PAT, read-only,
+    // Contents: Read, scoped to this repository alone. Leave empty otherwise -
+    // and never commit a .pbix that has one filled in.
     GitHubToken  = "",
 
     // ---- fetch -----------------------------------------------------------

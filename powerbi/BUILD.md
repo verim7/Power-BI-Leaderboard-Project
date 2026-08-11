@@ -9,29 +9,26 @@ Everything below assumes the refresh workflow is already publishing
 
 ---
 
-## 0. Decide how Power BI reaches the CSV — do this first
+## 0. How Power BI reaches the CSV
 
-`verim7/Power-BI-Leaderboard-Project` is **private**, so
-`raw.githubusercontent.com` will not serve the file anonymously. Two ways out,
-and the choice changes step 2.
+**Already decided: the repository is public and the queries are set up for it.**
+`UseGitHubApi = false`, anonymous, nothing to configure. Skip to step 1 unless
+the repository is ever made private again.
 
-### A. Publish the data publicly (recommended)
+### A. Public repository (current setup)
 
 The CSV holds nothing confidential: it is public benchmark and pricing data
 scraped from a public website. The *deck* is the confidential asset, and it is
 not in this repository.
 
-Either make this repository public — after confirming no Synpulse material has
-been committed — or push `data/` to a small public companion repo from the same
-workflow.
-
-Then in `Leaderboard.m` set `UseGitHubApi = false`.
+This repository is public and holds no deck material, so the CSV is served
+anonymously from `raw.githubusercontent.com`.
 
 - no token, no rotation, no secret in the .pbix
 - scheduled refresh in the Service works with **Anonymous** auth and no gateway
 - anyone with the URL can read the CSV, which for this data is fine
 
-### B. Keep everything private, authenticate with a PAT
+### B. If the repository ever goes private again
 
 Create a **fine-grained** personal access token: this repository only,
 *Contents: Read-only*, with an expiry you will actually diarise.
@@ -44,8 +41,8 @@ In `Leaderboard.m` keep `UseGitHubApi = true` and put the token in the
   so anyone you send the file to inherits read access to the repo
 - it expires, and refresh fails when it does
 
-Option A is less to get wrong. Option B is defensible if the repository will
-ever hold anything sensitive.
+Option A is what is configured. Option B is the fallback if the repository ever
+has to hold something sensitive.
 
 ---
 
@@ -53,7 +50,8 @@ ever hold anything sensitive.
 
 Power BI Desktop → **Blank report** → save as `powerbi/AI-Leaderboard.pbix`.
 
-Do not commit the .pbix if you chose option B — it contains the token.
+The .gitignore excludes `*.pbix`, which matters under option B where the file
+would contain the token.
 
 ## 2. Add the Leaderboard query
 
@@ -61,8 +59,8 @@ Do not commit the .pbix if you chose option B — it contains the token.
 and paste the whole of `powerbi/queries/Leaderboard.m`. Name the query
 `Leaderboard`.
 
-Edit the configuration block at the top: `Branch` should be `main` once this
-work is merged, and set `UseGitHubApi` per step 0.
+The configuration block at the top is already set for this repository:
+`Branch = "main"`, `UseGitHubApi = false`.
 
 When prompted for credentials choose **Anonymous** — under option B the token
 travels in the header, not in Power BI's credential store.
