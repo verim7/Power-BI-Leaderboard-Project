@@ -46,7 +46,7 @@ jobs:
 
       - name: Scrape and report (push only, writes nothing)
         if: github.event_name == 'push'
-        run: python scraper/fetch_leaderboard.py --report
+        run: python scraper/fetch_leaderboard.py --report --inspect "Gemini 2.5 Pro"
 
       - name: Scrape and publish
         if: github.event_name != 'push'
