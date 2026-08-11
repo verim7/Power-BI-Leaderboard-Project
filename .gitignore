@@ -1,0 +1,15 @@
+# This repository is public. The training deck is confidential material and
+# must never be committed here - nor may anything exported from it.
+*.pptx
+*.potx
+*.pptx.bak
+deck/exports/
+slide-*.png
+
+# The .pbix embeds data source credentials when the GitHub API path is used.
+*.pbix
+
+__pycache__/
+*.pyc
+.pytest_cache/
+probe-output/

@@ -1,0 +1,143 @@
+// Measures for the AI Leaderboard model.
+//
+// Paste each one via Modeling > New measure in Power BI Desktop. Names are
+// referenced by powerbi/BUILD.md, so keep them if you follow that guide.
+//
+// Two conventions throughout:
+//   - DIVIDE() rather than "/", so a null denominator gives blank, not an error
+//   - a withdrawn price stays BLANK and prints "n/a"; it never becomes 0.00
+
+
+// ---------------------------------------------------------------------------
+// Freshness. The pipeline can fail silently - a workflow that stops running
+// leaves yesterday's CSV in place, and yesterday's is indistinguishable from
+// today's on a slide. These make the age visible.
+// ---------------------------------------------------------------------------
+
+Data as of =
+VAR d = MAX ( Leaderboard[as_of_date] )
+RETURN FORMAT ( d, "D MMMM YYYY" )
+
+Days since refresh =
+DATEDIFF ( MAX ( Leaderboard[as_of_date] ), TODAY (), DAY )
+
+// Drop this on the report page as a card. It stays quiet while the pipeline is
+// healthy and speaks up when it is not, which is the only time it matters.
+Freshness warning =
+VAR age = [Days since refresh]
+RETURN
+    SWITCH (
+        TRUE (),
+        age <= 2,  BLANK (),
+        age <= 7,  "Daten " & age & " Tage alt",
+        "VERALTET - " & age & " Tage seit dem letzten Update"
+    )
+
+// For conditional formatting: 0 fresh, 1 ageing, 2 stale.
+Freshness state =
+SWITCH ( TRUE (), [Days since refresh] <= 2, 0, [Days since refresh] <= 7, 1, 2 )
+
+
+// ---------------------------------------------------------------------------
+// Coverage
+// ---------------------------------------------------------------------------
+
+Models tracked = COUNTROWS ( Leaderboard )
+
+Models with pricing =
+CALCULATE ( COUNTROWS ( Leaderboard ), Leaderboard[has_public_pricing] = TRUE () )
+
+// Say the quiet part on the chart: the scatter can only plot priced models.
+Pricing coverage label =
+[Models with pricing] & " von " & [Models tracked] & " Modellen mit Preisangabe"
+
+Open source models =
+CALCULATE ( COUNTROWS ( Leaderboard ), Leaderboard[is_open_source] = TRUE () )
+
+
+// ---------------------------------------------------------------------------
+// Accuracy
+// ---------------------------------------------------------------------------
+
+Top GPQA = MAX ( Leaderboard[gpqa] )
+
+Leading model =
+VAR top = CALCULATE ( MAX ( Leaderboard[gpqa] ), ALLSELECTED ( Leaderboard ) )
+RETURN
+    CALCULATE (
+        SELECTEDVALUE ( Leaderboard[model] ),
+        FILTER ( ALLSELECTED ( Leaderboard ), Leaderboard[gpqa] = top )
+    )
+
+// How far the selected model sits behind the leader, in GPQA points. The honest
+// framing for "is the cheap one good enough?".
+GPQA gap to leader =
+VAR top = CALCULATE ( MAX ( Leaderboard[gpqa] ), ALLSELECTED ( Leaderboard ) )
+RETURN top - SELECTEDVALUE ( Leaderboard[gpqa] )
+
+
+// ---------------------------------------------------------------------------
+// Price. This is the slide's actual argument: comparable accuracy, very
+// different cost.
+// ---------------------------------------------------------------------------
+
+Avg output price =
+AVERAGE ( Leaderboard[output_usd_per_m] )
+
+Cheapest output price =
+MIN ( Leaderboard[output_usd_per_m] )
+
+// What one point of measured capability costs. Low is good.
+Cost per GPQA point =
+DIVIDE ( SUM ( Leaderboard[output_usd_per_m] ), SUM ( Leaderboard[gpqa] ) )
+
+// The headline number for the slide: how many times more expensive the priciest
+// model is than the cheapest, among models within reach of the leader.
+Price spread near the top =
+VAR top = CALCULATE ( MAX ( Leaderboard[gpqa] ), ALLSELECTED ( Leaderboard ) )
+VAR contenders =
+    FILTER (
+        ALLSELECTED ( Leaderboard ),
+        Leaderboard[gpqa] >= top - 2 && NOT ISBLANK ( Leaderboard[output_usd_per_m] )
+    )
+VAR lo = MINX ( contenders, Leaderboard[output_usd_per_m] )
+VAR hi = MAXX ( contenders, Leaderboard[output_usd_per_m] )
+RETURN DIVIDE ( hi, lo )
+
+// The cheapest model that is still within 2 GPQA points of the best. This is
+// the recommendation the slide gestures at but never names.
+Best value near the top =
+VAR top = CALCULATE ( MAX ( Leaderboard[gpqa] ), ALLSELECTED ( Leaderboard ) )
+VAR contenders =
+    FILTER (
+        ALLSELECTED ( Leaderboard ),
+        Leaderboard[gpqa] >= top - 2 && NOT ISBLANK ( Leaderboard[output_usd_per_m] )
+    )
+VAR cheapest = MINX ( contenders, Leaderboard[output_usd_per_m] )
+RETURN
+    CONCATENATEX (
+        FILTER ( contenders, Leaderboard[output_usd_per_m] = cheapest ),
+        Leaderboard[model],
+        ", "
+    )
+
+
+// ---------------------------------------------------------------------------
+// Display. Blank means "not published", and must read that way.
+// ---------------------------------------------------------------------------
+
+Input price display =
+VAR v = SELECTEDVALUE ( Leaderboard[input_usd_per_m] )
+RETURN IF ( ISBLANK ( v ), "n/a", FORMAT ( v, "0.00" ) )
+
+Output price display =
+VAR v = SELECTEDVALUE ( Leaderboard[output_usd_per_m] )
+RETURN IF ( ISBLANK ( v ), "n/a", FORMAT ( v, "0.00" ) )
+
+GPQA display =
+VAR v = SELECTEDVALUE ( Leaderboard[gpqa] )
+RETURN IF ( ISBLANK ( v ), "n/a", FORMAT ( v, "0.0" ) & " %" )
+
+AIME display =
+VAR v = SELECTEDVALUE ( Leaderboard[aime_2025] )
+RETURN IF ( ISBLANK ( v ), "n/a", FORMAT ( v, "0.0" ) & " %" )

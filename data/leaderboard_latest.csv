@@ -1,0 +1,341 @@
+organization,model,gpqa,aime_2025,input_usd_per_m,output_usd_per_m,context_window,is_open_source,license,as_of_date,source_url
+Anthropic,Claude Mythos Preview,94.6,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.6 Sol,94.6,,5.0,30.0,1050000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 3.1 Pro,94.3,,2.5,15.0,1048576,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude Opus 4.7,94.2,,5.0,25.0,1000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude Opus 4.8,93.6,,5.0,25.0,1000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.5,93.6,,5.0,30.0,1050000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Moonshot AI,Kimi K3,93.5,,3.0,15.0,1048576,True,kimi_k3,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.2 Pro,93.2,100.0,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok 4.5,93.0,,2.0,6.0,500000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.6 Terra,92.9,,2.0,12.0,1050000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.4,92.8,,2.5,15.0,1000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3.8 Max,92.6,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.2,92.4,100.0,1.75,14.0,400000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3.7 Max,92.4,,1.25,3.75,1000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.6 Luna,92.3,,0.2,1.2,1050000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 3 Pro,91.9,100.0,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude Opus 4.6,91.3,99.79,5.0,25.0,1000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Zhipu AI,GLM-5.2,91.2,,0.95,3.0,1048576,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Moonshot AI,Kimi K2.6,90.5,,0.75,3.5,262144,True,modified_mit_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 3 Flash,90.4,99.7,0.5,3.0,1000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Tencent,Hy3,90.4,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3.6 Plus,90.4,,0.5,3.0,1000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3.7-Plus,90.3,,0.32,1.28,1000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek-V4-Pro-Max,90.1,,1.6,3.2,1048576,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude Sonnet 4.6,89.9,,3.0,15.0,200000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meta,Muse Spark,89.5,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+ByteDance,Seed 2.0 Pro,88.9,98.3,0.5,3.0,256000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-4 Heavy,88.4,100.0,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3.5-397B-A17B,88.4,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek-V4-Flash-Max,88.1,,0.14,0.28,1048576,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5 Medium,88.1,88.9,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.1,88.1,94.0,1.25,10.0,400000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.1 High,88.1,99.6,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.1 Instant,88.1,94.0,1.25,10.0,400000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.1 Thinking,88.1,94.0,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.4 mini,88.0,,0.75,4.5,400000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3.6-27B,87.8,,0.6,3.6,262144,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Moonshot AI,Kimi K2.5,87.6,96.1,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-4,87.5,91.7,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek-V4-Flash-0423,87.4,,0.1,0.2,1048576,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5 High,87.3,94.6,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude Opus 4.5,87.0,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+NVIDIA,Nemotron 3 Ultra (550B A55B),87.0,,,,,True,openmdw,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 3.1 Flash-Lite,86.9,,0.25,1.5,1000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3.5-122B-A10B,86.6,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 2.5 Pro Preview 06-05,86.4,88.0,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Zhipu AI,GLM-5.1,86.2,,1.4,4.4,200000,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3.6-35B-A3B,86.0,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Zhipu AI,GLM-4.7,85.7,95.7,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5,85.7,94.6,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok 4 Fast,85.7,92.0,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.5 Instant,85.6,81.2,5.0,30.0,400000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3.5-27B,85.5,,0.3,2.4,262144,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+ByteDance,Seed 2.0 Lite,85.1,93.0,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Baidu,ERNIE 5.0,85.0,87.0,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude 3.7 Sonnet,84.8,54.8,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-3,84.6,93.3,3.0,15.0,128000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Microsoft,MAI-Code-1-Flash,84.6,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Moonshot AI,Kimi K2-Thinking-0905,84.5,100.0,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 4 31B,84.3,,0.13,0.38,262144,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Microsoft,MAI-Thinking-1,84.2,97.0,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3.5-35B-A3B,84.2,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,ChatGPT-4o Latest,84.0,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-3 Mini,84.0,90.8,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Xiaomi,MiMo-V2-Flash,83.7,94.1,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meta,Muse Glimmer-30B,83.5,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude Sonnet 4.5,83.4,87.0,3.0,15.0,200000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,o3,83.3,86.4,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 2.5 Pro,83.0,83.0,1.25,10.0,1048576,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.4 nano,82.8,,0.2,1.25,400000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 2.5 Flash,82.8,72.0,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+NVIDIA,Nemotron 3 Super (120B A12B),82.7,90.21,,,,True,nvidia_open_model_license_agreement,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek-V3.2,82.4,93.1,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek-V3.2 (Thinking),82.4,93.1,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5 mini,82.3,91.1,0.25,2.0,400000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 4 26B-A4B,82.3,,0.13,0.4,262144,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3.5-9B,81.7,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meituan,LongCat-Flash-Thinking,81.5,90.6,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Amazon,Nova 2 Pro,81.4,92.3,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,o4-mini,81.4,92.7,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3-235B-A22B-Thinking-2507,81.1,92.3,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek-R1-0528,81.0,87.5,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Zhipu AI,GLM-4.6,81.0,93.9,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+MiniMax,MiniMax M2.1,81.0,81.0,0.3,1.2,1000000,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude Opus 4.1,80.9,78.0,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT OSS 120B High,80.9,92.5,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meituan,LongCat-Flash-Thinking-2601,80.5,99.6,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT OSS 120B,80.1,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek-V3.2-Exp,79.9,89.3,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude Opus 4,79.6,75.5,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Amazon,Nova 2 Lite,79.6,91.0,0.3,2.5,1000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Zhipu AI,GLM-4.5,79.1,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,o1-pro,79.0,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 4 12B,78.8,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Sarvam AI,Sarvam-105B,78.7,96.7,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+MiniMax,MiniMax M2,78.0,78.0,0.3,1.2,1000000,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,o1,78.0,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3-235B-A22B-Instruct-2507,77.5,70.3,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3-Next-80B-A3B-Thinking,77.2,87.8,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,o3-mini,77.2,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3.5-4B,76.2,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+NVIDIA,Llama 3.1 Nemotron Ultra 253B v1,76.01,72.5,,,,True,llama_3_1_community_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Moonshot AI,Kimi K2 0905,75.8,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude Sonnet 4,75.4,70.5,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Zhipu AI,GLM-4.7-Flash,75.2,91.6,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Moonshot AI,Kimi K2 Instruct,75.1,49.5,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Moonshot AI,Kimi K2-Instruct-0905,75.1,49.5,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Zhipu AI,GLM-4.5-Air,75.0,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+NVIDIA,Nemotron 3 Nano (30B A3B),75.0,99.2,0.06,0.24,262144,True,nvidia_open_model_license_agreement,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek-V3.1,74.9,49.8,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3 VL 30B A3B Thinking,74.4,83.1,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT OSS 20B High,74.2,98.7,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 2.0 Flash Thinking,74.2,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Baidu,ERNIE 4.5,74.0,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Inception,Mercury 2,74.0,91.1,0.25,0.75,128000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek R1 Zero,73.3,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,o1-preview,73.3,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meituan,LongCat-Flash-Chat,73.23,61.25,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,DiffusionGemma 26B-A4B,73.2,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3 VL 32B Thinking,73.1,83.7,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude Haiku 4.5,73.0,80.7,1.0,5.0,200000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3-Next-80B-A3B-Instruct,72.9,69.5,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT OSS 20B,71.5,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5 nano,71.2,85.2,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Ministral 3 (14B Reasoning 2512),71.2,85.0,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Mistral Small 4,71.2,83.8,0.15,0.6,256000,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Magistral Medium,70.8,64.9,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3 VL 30B A3B Instruct,70.4,69.3,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-4o,70.1,,2.5,10.0,128000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+MiniMax,MiniMax M1 80K,70.0,76.9,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3 VL 8B Thinking,69.9,80.3,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meta,Llama 4 Maverick,69.8,,,,,True,llama_4_community_license_agreement,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-4.5,69.5,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+MiniMax,MiniMax M1 40K,69.2,74.6,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Microsoft,Phi 4 Reasoning Plus,68.9,78.0,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3 VL 32B Instruct,68.9,66.2,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek-V3 0324,68.4,,,,,True,mit_+_model_license_(commercial_use_allowed),2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Magistral Small 2506,68.18,62.76,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude 3.5 Sonnet,67.2,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Ministral 3 (8B Reasoning 2512),66.8,78.7,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meituan,LongCat-Flash-Lite,66.78,63.23,0.1,0.4,256000,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Xiaomi,MiMo-V2.5-Pro,66.7,,0.435,0.87,1048576,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+NVIDIA,Llama-3.3 Nemotron Super 49B v1,66.67,58.4,,,,True,llama_3_1_community_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Sarvam AI,Sarvam-30B,66.5,96.7,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-4.1,66.3,46.4,2.0,8.0,1047576,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Nous Research,Hermes 3 70B,66.1,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Microsoft,Phi 4 Reasoning,65.8,62.9,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3 30B A3B,65.8,70.9,0.1,0.3,128000,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek R1 Distill Llama 70B,65.2,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,QwQ-32B,65.2,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,QwQ-32B-Preview,65.2,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-4.1 mini,65.0,40.2,0.4,1.6,1047576,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 2.5 Flash-Lite,64.6,49.8,,,,True,creative_commons_attribution_4_0_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3 VL 4B Thinking,64.1,74.5,0.1,1.0,262144,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+NVIDIA,Nemotron Nano 9B v2,64.0,72.1,,,,True,nvidia_open_model_license_agreement,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek R1 Distill Qwen 32B,62.1,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 2.0 Flash,62.1,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3 Max,62.0,81.6,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,o1-mini,60.0,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude 3.5 Sonnet,59.4,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek R1 Distill Qwen 14B,59.1,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek-V3,59.1,,,,,True,mit_+_model_license_(commercial_use_allowed),2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 1.5 Pro,59.1,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 4 E4B,58.6,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meta,Llama 4 Scout,57.2,,,,,True,llama_4_community_license_agreement,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Microsoft,Phi 4,56.1,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-2,56.0,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+NVIDIA,Llama 3.1 Nemotron Nano 8B V1,54.1,47.1,,,,True,llama_3_1_community_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-4o,53.6,,2.5,10.0,128000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Min  istral 3 (3B Reasoning 2512),53.4,72.1,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Microsoft,Phi 4 Mini Reasoning,52.0,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3.5-2B,51.6,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 2.0 Flash-Lite,51.5,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 1.5 Flash,51.0,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-2 mini,51.0,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meta,Llama 3.1 405B Instruct,50.7,,,,,True,llama_3_1_community_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meta,Llama 3.3 70B Instruct,50.5,,,,,True,llama_3_3_community_license_agreement,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude 3 Opus,50.4,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-4.1 nano,50.3,,0.1,0.4,1047576,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen2.5 32B Instruct,49.5,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek R1 Distill Qwen 7B,49.1,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek R1 Distill Llama 8B,49.0,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen2.5 72B Instruct,49.0,,,,,True,qwen,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Moonshot AI,Kimi K2 Base,48.1,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-4 Turbo,48.0,,10.0,30.0,128000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3 235B A22B,47.47,81.5,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Amazon,Nova Pro,46.9,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meta,Llama 3.2 90B Instruct,46.7,,,,,True,llama3_2,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Mistral Small 3.2 24B Instruct,46.13,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen2.5 VL 32B Instruct,46.0,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Mistral Small 3.1 24B Instruct,45.96,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen2.5 14B Instruct,45.5,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Mistral Small 3 24B Instruct,45.3,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Mistral Large 3 (675B Base),43.9,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Mistral Large 3 (675B Instruct 2512 Eagle),43.9,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Mistral Large 3 (675B Instruct 2512 NVFP4),43.9,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Mistral Large 3 (675B Instruct 2512),43.9,,0.5,1.5,262100,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 4 E2B,43.4,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 3 27B,42.4,,,,,True,gemma,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen2 72B Instruct,42.4,,,,,True,tongyi_qianwen,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Amazon,Nova Lite,42.0,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meta,Llama 3.1 70B Instruct,41.7,,,,,True,llama_3_1_community_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude 3.5 Haiku,41.6,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 3 12B,40.9,,,,,True,gemma,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude 3 Sonnet,40.4,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini Diffusion,40.4,23.3,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-4o mini,40.2,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Amazon,Nova Micro,40.0,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 1.5 Flash 8B,38.4,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Mistral Small 3.1 24B Base,37.5,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+AI21 Labs,Jamba 1.5 Large,36.9,,,,,True,jamba_open_model_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Microsoft,Phi-3.5-MoE-instruct,36.8,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen2.5 7B Instruct,36.4,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-1.5,35.9,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-4,35.7,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Mistral Small 3 24B Base,34.37,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek R1 Distill Qwen 1.5B,33.8,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude 3 Haiku,33.3,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meta,Llama 3.2 11B Instruct,32.8,,,,,True,llama_3_2_community_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meta,Llama 3.2 3B Instruct,32.8,,,,,True,llama_3_2_community_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+AI21 Labs,Jamba 1.5 Mini,32.3,,,,,True,jamba_open_model_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-3.5 Turbo,30.8,,0.5,1.5,16385,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 3 4B,30.8,,,,,True,gemma,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen2.5-Omni-7B,30.8,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meta,Llama 3.1 8B Instruct,30.4,,,,,True,llama_3_1_community_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Microsoft,Phi-3.5-mini-instruct,30.4,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 1.0 Pro,27.9,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen2 7B Instruct,25.3,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Microsoft,Phi 4 Mini,25.2,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 3n E2B Instructed,24.8,6.7,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 3n E2B Instructed LiteRT (Preview),24.8,6.7,,,,True,gemma,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 3n E4B Instructed,23.7,11.6,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 3n E4B Instructed LiteRT Preview,23.7,11.6,,,,True,gemma,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 3 1B,19.2,,,,,True,gemma,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3.5-0.8B,11.9,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude Fable 5,,,10.0,50.0,1000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude Opus 5,,,5.0,25.0,1000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Anthropic,Claude Sonnet 5,,,2.0,10.0,1000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Codestral-22B,,,,,,True,mnpl_0_1,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Cohere,Command A+,,90.0,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Cohere,Command R+,,,,,,True,cc_by_nc,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek VL2,,,,,,True,deepseek,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek VL2 Small,,,,,,True,deepseek,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek VL2 Tiny,,,,,,True,deepseek,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek-R1,,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek-V2.5,,,,,,True,deepseek,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek-V3.2 (Non-thinking),,,0.28,0.42,131072,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek-V3.2-Speciale,,96.0,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+DeepSeek,DeepSeek-V4-Flash-0731,,,0.09,0.18,1048576,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Devstral Medium,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Devstral Small 1.1,,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Zhipu AI,GLM-4.5V,,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Zhipu AI,GLM-5,,,1.0,3.2,200000,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Zhipu AI,GLM-5V-Turbo,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5 Codex,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.1 Codex,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.1 Codex High,,96.7,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.1 Codex Mini,,42.1,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.1 Medium,,98.4,1.25,10.0,400000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.2 Codex,,,1.75,14.0,400000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.3 Chat,,,1.75,14.0,128000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.3 Codex,,,1.75,14.0,400000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,GPT-5.5 Pro,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 3.5 Flash,,,1.5,9.0,1048576,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 3.5 Flash Cyber,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 3.5 Flash-Lite,,,0.3,2.5,1048576,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemini 3.6 Flash,,,1.5,7.5,1048576,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 2 27B,,,,,,True,gemma,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 2 9B,,,,,,True,gemma,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 3n E2B,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,Gemma 3n E4B,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+IBM,Granite 3.3 8B Base,,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+IBM,Granite 3.3 8B Instruct,,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok 4.3,,,1.25,2.5,1000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok Code Fast 1,,,0.2,1.5,256000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-1.5V,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-2 Image 1212,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-4 Fast Non-Reasoning,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-4 Fast Reasoning,,,0.2,0.5,2000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-4.1,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-4.1 Fast Non-Reasoning,,,0.2,0.5,2000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-4.1 Fast Reasoning,,,0.2,0.5,2000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-4.1 Thinking,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-4.20 Beta Non-Reasoning,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-4.20 Beta Reasoning,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+xAI,Grok-4.20 Multi-Agent Beta,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+IBM,IBM Granite 4.0 Tiny Preview,,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+LG AI Research,K-EXAONE-236B-A23B,,92.8,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Moonshot AI,Kimi K2.7 Code,,,0.74,3.5,262144,True,modified_mit_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Moonshot AI,Kimi-k1.5,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+NVIDIA,Llama 3.1 Nemotron 70B Instruct,,,,,,True,llama_3_1_community_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Google,MedGemma 4B IT,,,,,,True,health_ai_developer_foundations_terms_of_use,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Xiaomi,MiMo-V2-Omni,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Xiaomi,MiMo-V2-Pro,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Xiaomi,MiMo-V2.5,,,0.168,0.336,1048576,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenBMB,MiniCPM-SALA,,78.33,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+MiniMax,MiniMax M2.5,,,0.3,1.2,1000000,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+MiniMax,MiniMax M2.7,,,0.3,1.2,204800,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+MiniMax,MiniMax M3,,,0.3,1.2,1000000,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,MiniStral 3 (14B Instruct 2512),,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Ministral 3 (14B Base 2512),,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Ministral 3 (3B Base 2512),,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Ministral 3 (3B Instruct 2512),,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Ministral 3 (8B Base 2512),,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Ministral 3 (8B Instruct 2512),,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Ministral 8B Instruct,,,,,,True,mistral_research_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Mistral Large 2,,,,,,True,mistral_research_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Mistral Large 3,,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Mistral Medium 3.5,,86.3,1.5,7.5,256000,True,modified_mit_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Mistral NeMo Instruct,,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Mistral Small,,,,,,True,mistral_research_license,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meta,Muse Spark 1.1,,,1.25,4.25,1048576,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Meta,Muse Spark 1.2,,,1.25,4.25,1048576,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Cohere,North Mini Code 1.0,,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Amazon,Nova 2 Omni,,92.1,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Amazon,Nova 2 Sonic,,,0.33,2.75,1000000,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Microsoft,Phi-3.5-vision-instruct,,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Microsoft,Phi-4-multimodal-instruct,,,,,,True,mit,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Pixtral Large,,,,,,True,mistral_research_license_(mrl)_for_research;_mistral_commercial_license_for_commercial_use,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Mistral AI,Pixtral-12B,,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,QvQ-72B-Preview,,,,,,True,qwen,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen2-VL-72B-Instruct,,,,,,True,tongyi_qianwen,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen2.5 VL 72B Instruct,,,,,,True,tongyi_qianwen,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen2.5 VL 7B Instruct,,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen2.5-Coder 32B Instruct,,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen2.5-Coder 7B Instruct,,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3 32B,,72.9,0.1,0.3,128000,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3 VL 235B A22B Instruct,,74.7,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3 VL 235B A22B Thinking,,89.7,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3 VL 4B Instruct,,46.6,0.1,0.6,262144,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3 VL 8B Instruct,,45.9,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3-Coder,,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3-Coder 480B A35B Instruct,,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Alibaba Cloud / Qwen Team,Qwen3-Next-80B-A3B-Base,,,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+ByteDance,Seed 2.1 Pro,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+ByteDance,Seed 2.1 Turbo,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+StepFun,Step-3.5-Flash,,97.3,0.1,0.4,65536,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+StepFun,Step3-VL-10B,,87.7,,,,True,apache_2_0,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+Unisound,U2,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
+OpenAI,o3-pro,,,,,,False,proprietary,2026-08-11,https://llm-stats.com/leaderboards/llm-leaderboard
