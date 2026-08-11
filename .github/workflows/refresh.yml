@@ -39,10 +39,10 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install -r scraper/requirements.txt pytest
+        run: pip install -r scraper/requirements.txt -r deck/requirements.txt pytest
 
       - name: Unit tests (offline, no network)
-        run: python -m pytest scraper/tests -q
+        run: python -m pytest scraper/tests deck/tests -q
 
       - name: Scrape and report (push only, writes nothing)
         if: github.event_name == 'push'

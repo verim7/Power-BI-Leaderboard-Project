@@ -1,0 +1,52 @@
+# How the deck updater finds and fills slide 144's table.
+
+deck: "AI_Training.pptx"          # path to the deck; override with --deck
+output: "AI_Training.updated.pptx" # written here unless --in-place
+
+# --- finding the table ----------------------------------------------------
+# The table is located by the text in its header row, not by slide number, so
+# inserting slides earlier in the deck cannot silently retarget the update.
+# slide_hint narrows the search when several tables would match.
+table:
+  header_contains: ["Organization", "Model", "GPQA"]
+  slide_hint: 144                 # 1-based; set to null to search every slide
+
+# --- which models the slide prints ---------------------------------------
+# mode: shortlist -> exactly the models named below, in this order
+# mode: top_n     -> the current top N by GPQA, recomputed on every run
+selection:
+  mode: shortlist
+  top_n: 8
+  shortlist:
+    - "Gemini 3 Pro"
+    - "Grok-4 Heavy"
+    - "GPT-5.1"
+    - "GPT-5.1 Instant"
+    - "GPT-5.1 Think."
+    - "Grok-4"
+    - "Claude Opus 4.5"
+    - "Gemini 2.5 Pro"
+
+# --- header text -> CSV column -------------------------------------------
+# Superscript markers in the deck's headers ("GPQA¹") are ignored when
+# matching, so the mapping keys stay readable.
+columns:
+  Organization: organization
+  Model: model
+  GPQA: gpqa
+  AIME: aime_2025
+  "Input $/M": input_usd_per_m
+  "Output $/M": output_usd_per_m
+
+# --- how values are rendered ---------------------------------------------
+formats:
+  gpqa: "{:.1f} %"
+  aime_2025: "{:.1f} %"
+  input_usd_per_m: "{:.2f}"
+  output_usd_per_m: "{:.2f}"
+missing: "n/a"                    # what a blank prints as - never "0.00"
+
+# --- the "As of ..." footnote --------------------------------------------
+footnote:
+  match: "(?i)as of\\s+\\w+\\s+\\d{4}"
+  replace: "As of {date:%B %Y}"

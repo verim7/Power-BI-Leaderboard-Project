@@ -1,0 +1,14 @@
+# The training deck is confidential. Nothing Synpulse-branded belongs in git.
+*.pptx
+*.potx
+*.pptx.bak
+deck/exports/
+slide-*.png
+
+# The .pbix embeds data source credentials when the GitHub API path is used.
+*.pbix
+
+__pycache__/
+*.pyc
+.pytest_cache/
+probe-output/
