@@ -45,6 +45,10 @@ DATA = ROOT / "data"
 # than news. Refuse to publish it.
 MIN_MODELS = 15
 
+# Below this share of matching reference values, assume the mapping broke
+# rather than that the whole leaderboard was revised at once.
+PARITY_FLOOR = 0.5
+
 
 # --------------------------------------------------------------------------
 # extraction
@@ -271,7 +275,7 @@ def report(html: str, records: list[dict[str, Any]], rows: list[ModelRow]) -> No
                 if idx != -1:
                     print(f"    context: ...{flight[max(0,idx-300):idx+500]}...")
         print("\nfirst record verbatim:")
-        print(json.dumps(records[0], indent=2)[:1800])
+        print(json.dumps(records[0], indent=2)[:900])
     print(f"\nnormalised rows: {len(rows)}")
     for row in rows[:12]:
         print(
@@ -281,9 +285,32 @@ def report(html: str, records: list[dict[str, Any]], rows: list[ModelRow]) -> No
         )
 
 
+def inspect(html: str, needle: str) -> None:
+    """Every record matching `needle`, before de-duplication.
+
+    De-duplication keeps the fullest record per model_id, so a parity mismatch
+    is either a genuine revision upstream or the wrong record winning. This
+    shows which.
+    """
+    flight = decode_flight(html)
+    matches = [
+        obj for obj in iter_json_objects(flight, "gpqa_score")
+        if needle.lower() in str(obj.get("name", "")).lower()
+    ]
+    print(f"\n{len(matches)} raw record(s) matching {needle!r}:")
+    for obj in matches:
+        interesting = {
+            k: obj.get(k) for k in
+            ("model_id", "name", "organization", "release_date", "license",
+             "gpqa_score", "aime_2025_score", "input_price", "output_price")
+        }
+        print(f"  {json.dumps(interesting)}")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--report", action="store_true", help="diagnostics only")
+    ap.add_argument("--inspect", metavar="NAME", help="dump raw records matching NAME")
     ap.add_argument("--check", action="store_true", help="parity + sanity, write nothing")
     args = ap.parse_args()
 
@@ -292,6 +319,8 @@ def main() -> int:
     records = extract_records(html)
     rows = to_rows(records, as_of)
 
+    if args.inspect:
+        inspect(html, args.inspect)
     if args.report:
         report(html, records, rows)
 
@@ -301,6 +330,14 @@ def main() -> int:
         print(note)
 
     problems = sanity_check(rows)
+    # Individual drift is expected - llm-stats revises scores and drops pricing
+    # for models that are no longer served, and the slide is months old. A
+    # wholesale mismatch is different: that means the column mapping broke.
+    if checked and passed / checked < PARITY_FLOOR:
+        problems.append(
+            f"slide parity collapsed to {passed}/{checked} "
+            f"(floor {PARITY_FLOOR:.0%}) - the field mapping has probably changed"
+        )
     if problems:
         print("\nSANITY CHECK FAILED:")
         for p in problems:
