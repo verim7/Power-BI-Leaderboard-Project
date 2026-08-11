@@ -45,10 +45,16 @@ jobs:
         run: python -m pytest scraper/tests deck/tests -q
 
 
+      - name: Scrape and report (push only, writes nothing)
+        if: github.event_name == 'push'
+        run: python scraper/fetch_leaderboard.py --report
+
       - name: Scrape and publish
+        if: github.event_name != 'push'
         run: python scraper/fetch_leaderboard.py
 
       - name: Commit if the numbers moved
+        if: github.event_name != 'push'
         run: |
           git config user.name  "leaderboard-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

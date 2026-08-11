@@ -154,9 +154,14 @@ def set_cell_text(cell, text: str) -> None:
         extra._p.getparent().remove(extra._p)
 
 
-def render(field: str, row: dict, formats: dict, missing: str) -> str:
+def render(field: str, row: dict, formats: dict, missing: str,
+           display_names: dict[str, str] | None = None) -> str:
+    names = display_names or {}
+    if field == "model":
+        name = row.get("model", "")
+        return names.get(name, name)
     if row.get("_missing"):
-        return row["model"] if field == "model" else missing
+        return missing
     raw = row.get(field, "")
     fmt = formats.get(field)
     if fmt is None:
@@ -247,12 +252,13 @@ def main() -> int:
         print(f"note   : {note}")
 
     formats, missing = cfg["formats"], cfg["missing"]
+    display_names = cfg.get("display_names") or {}
     for offset, row in enumerate(chosen, start=1):
         cells = table.rows[offset].cells
         for col, field in columns.items():
             if col >= len(cells):
                 continue
-            text = render(field, row, formats, missing)
+            text = render(field, row, formats, missing, display_names)
             if args.dry_run:
                 current = cells[col].text.strip()
                 if current != text:

@@ -22,10 +22,16 @@ selection:
     - "Grok-4 Heavy"
     - "GPT-5.1"
     - "GPT-5.1 Instant"
-    - "GPT-5.1 Think."
+    - "GPT-5.1 Thinking"
     - "Grok-4"
     - "Claude Opus 4.5"
     - "Gemini 2.5 Pro"
+
+# Printed instead of the upstream name, where the deck's column is too narrow
+# for it. Matching still happens on the real name, so the data stays honest and
+# only the label is shortened.
+display_names:
+  "GPT-5.1 Thinking": "GPT-5.1 Think."
 
 # --- header text -> CSV column -------------------------------------------
 # Superscript markers in the deck's headers ("GPQA¹") are ignored when

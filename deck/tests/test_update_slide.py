@@ -194,3 +194,29 @@ def test_missing_table_fails_loudly(workspace):
     res = run(workspace, deck, "--out", str(workspace["tmp"] / "out.pptx"))
     assert res.returncode != 0
     assert "No table found" in (res.stdout + res.stderr)
+
+
+def test_display_name_shortens_the_label_without_changing_the_match(workspace):
+    """The slide prints "GPT-5.1 Think."; the data says "GPT-5.1 Thinking"."""
+    import csv as _csv
+    with workspace["csv"].open("a", newline="", encoding="utf-8") as fh:
+        _csv.writer(fh, lineterminator="\n").writerow([
+            "OpenAI", "GPT-5.1 Thinking", "88.1", "94.0", "", "",
+            "", "False", "proprietary", "2026-08-11", "https://llm-stats.com",
+        ])
+    cfg = yaml.safe_load(workspace["config"].read_text())
+    cfg["selection"]["shortlist"] = ["GPT-5.1 Thinking"]
+    cfg["display_names"] = {"GPT-5.1 Thinking": "GPT-5.1 Think."}
+    workspace["config"].write_text(yaml.safe_dump(cfg))
+
+    deck = workspace["tmp"] / "deck.pptx"
+    build_deck(deck)
+    out = workspace["tmp"] / "out.pptx"
+    res = run(workspace, deck, "--out", str(out))
+    assert res.returncode == 0, res.stdout + res.stderr
+    assert "no longer on the leaderboard" not in res.stdout   # matched on the real name
+
+    row = read_table(out)[1]
+    assert row[1] == "GPT-5.1 Think."     # short label on the slide
+    assert row[2] == "88.1 %"             # real model's numbers
+    assert row[5] == "n/a"                # price withdrawn upstream

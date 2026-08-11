@@ -49,6 +49,10 @@ model stops being generally served, which by August 2026 these have.
 *Here:* null, rendered `n/a`. The slide already prints `n/a` for Grok-4 Heavy,
 so the treatment is consistent with the original design.
 
+The same applies to `GPT-5.1 Thinking` — printed on the slide as "GPT-5.1
+Think." with $1.25/$10.00, now unpriced upstream. It is not in the parity
+reference set, so it does not show up in the parity count.
+
 A withdrawn price must never render as `0.00`: a free model and an unpriced one
 are opposite claims, and on a slide arguing that price drives model selection,
 that particular lie would be the expensive one.

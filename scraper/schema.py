@@ -99,7 +99,7 @@ SLIDE_MODELS = [
     "Grok-4 Heavy",
     "GPT-5.1",
     "GPT-5.1 Instant",
-    "GPT-5.1 Think.",
+    "GPT-5.1 Thinking",   # the slide abbreviates this to "GPT-5.1 Think."
     "Grok-4",
     "Claude Opus 4.5",
     "Gemini 2.5 Pro",
