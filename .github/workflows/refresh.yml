@@ -46,7 +46,7 @@ jobs:
 
 
       - name: Scrape and publish
-        run: python scraper/fetch_leaderboard.py --report
+        run: python scraper/fetch_leaderboard.py
 
       - name: Commit if the numbers moved
         run: |
