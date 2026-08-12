@@ -70,18 +70,45 @@ Check in the preview:
 - `as_of_date` is **Date**
 - `is_open_source` is **True/False**
 
-## 3. Add the shortlist query
+## 3. Add the shortlist query — optional
 
 Another blank query, paste `powerbi/queries/SlideShortlist.m`, name it
 `SlideShortlist`. It references `Leaderboard`, so create it second.
+
+**Skippable.** No measure reads it; it only pins the slide's eight rows to a
+fixed order. Without it, build the table visual on `Leaderboard` and filter to
+the models you want. Add it later if you get tired of maintaining that filter
+by hand.
 
 **Close & Apply.**
 
 ## 4. Add the measures
 
 **Modeling → New measure**, once per measure in
-`powerbi/measures/measures.dax`. Paste the whole block including its comment —
-the comments explain the intent and cost nothing.
+`powerbi/measures/measures.dax`. Every block begins with its measure name and
+the comments sit underneath it, because the formula bar rejects a comment
+placed above the name. Select from the name down to the blank line and paste
+the lot.
+
+### If you are short on time
+
+Nine of the twenty carry the argument and the honesty. Do these first and add
+the rest when you want them:
+
+| Measure | Why it earns its place |
+|---|---|
+| `Data as of` | the slide's footnote, live |
+| `Days since refresh` | feeds the two below |
+| `Freshness warning` | says nothing until the pipeline stalls |
+| `GPQA display`, `AIME display` | render a missing benchmark as `n/a` |
+| `Input price display`, `Output price display` | render a withdrawn price as `n/a` |
+| `Price spread near the top` | the "N× more expensive for the same accuracy" number |
+| `Best value near the top` | names the model the slide implies but never states |
+
+Skipping the four display measures is survivable — Power BI shows a blank cell,
+which is honest if less explicit. What must never happen is a blank rendering
+as `0.00`, and using the raw columns with a "0.00" format string would do
+exactly that.
 
 Set formatting: percentages to 1 decimal, prices to 2, `Days since refresh` to
 whole number.
