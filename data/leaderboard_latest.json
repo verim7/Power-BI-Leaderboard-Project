@@ -9,7 +9,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -22,7 +22,7 @@
     "context_window": 1050000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -35,7 +35,7 @@
     "context_window": 1048576,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -48,7 +48,7 @@
     "context_window": 1000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -61,7 +61,7 @@
     "context_window": 1000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -74,7 +74,7 @@
     "context_window": 1050000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -87,7 +87,7 @@
     "context_window": 1048576,
     "is_open_source": true,
     "license": "kimi_k3",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -100,7 +100,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -113,7 +113,7 @@
     "context_window": 500000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -126,7 +126,7 @@
     "context_window": 1050000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -139,7 +139,7 @@
     "context_window": 1000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -152,7 +152,7 @@
     "context_window": 1048576,
     "is_open_source": true,
     "license": "qwen3_8_max",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -165,7 +165,7 @@
     "context_window": 400000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -178,7 +178,7 @@
     "context_window": 1000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -191,7 +191,7 @@
     "context_window": 1050000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -204,7 +204,20 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
+    "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
+  },
+  {
+    "organization": "Alibaba Cloud / Qwen Team",
+    "model": "Qwen3.8-Flash-Next",
+    "gpqa": 91.7,
+    "aime_2025": null,
+    "input_usd_per_m": null,
+    "output_usd_per_m": null,
+    "context_window": null,
+    "is_open_source": true,
+    "license": "qwen_community_1_0",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -217,7 +230,7 @@
     "context_window": 1000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -230,7 +243,7 @@
     "context_window": 1048576,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -243,7 +256,7 @@
     "context_window": 262144,
     "is_open_source": true,
     "license": "modified_mit_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -256,7 +269,7 @@
     "context_window": 1000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -269,7 +282,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -282,7 +295,7 @@
     "context_window": 1000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -295,7 +308,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -303,12 +316,12 @@
     "model": "DeepSeek-V4-Pro-Max",
     "gpqa": 90.1,
     "aime_2025": null,
-    "input_usd_per_m": 1.6,
-    "output_usd_per_m": 3.2,
-    "context_window": 1048576,
+    "input_usd_per_m": null,
+    "output_usd_per_m": null,
+    "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -321,7 +334,7 @@
     "context_window": 200000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -334,7 +347,7 @@
     "context_window": 256000,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -347,7 +360,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -360,7 +373,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -373,7 +386,7 @@
     "context_window": 524288,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -386,7 +399,7 @@
     "context_window": 256000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -399,7 +412,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -412,7 +425,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -425,7 +438,7 @@
     "context_window": 1048576,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -438,7 +451,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -451,7 +464,7 @@
     "context_window": 400000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -464,7 +477,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -477,7 +490,7 @@
     "context_window": 400000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -490,7 +503,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -503,7 +516,7 @@
     "context_window": 400000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -516,7 +529,7 @@
     "context_window": 262144,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -529,7 +542,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -542,7 +555,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -555,7 +568,7 @@
     "context_window": 1048576,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -568,7 +581,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -581,7 +594,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -594,7 +607,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "openmdw",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -607,7 +620,7 @@
     "context_window": 1000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -620,7 +633,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -633,7 +646,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -646,7 +659,7 @@
     "context_window": 200000,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -659,7 +672,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -672,7 +685,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -685,7 +698,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -698,7 +711,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -711,7 +724,7 @@
     "context_window": 400000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -724,7 +737,7 @@
     "context_window": 262144,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -737,7 +750,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -750,7 +763,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -763,7 +776,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -776,7 +789,7 @@
     "context_window": 128000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -789,7 +802,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -802,7 +815,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -815,7 +828,7 @@
     "context_window": 262144,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -828,7 +841,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -841,7 +854,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -854,7 +867,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -867,7 +880,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -880,7 +893,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -893,7 +906,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -906,7 +919,7 @@
     "context_window": 200000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -919,7 +932,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -932,7 +945,7 @@
     "context_window": 1048576,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -945,7 +958,7 @@
     "context_window": 400000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -958,7 +971,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -971,7 +984,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "nvidia_open_model_license_agreement",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -984,7 +997,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -997,7 +1010,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1010,7 +1023,7 @@
     "context_window": 400000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1023,7 +1036,7 @@
     "context_window": 262144,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1036,7 +1049,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1049,7 +1062,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1062,7 +1075,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1075,7 +1088,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1088,7 +1101,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1101,7 +1114,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1114,7 +1127,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1127,7 +1140,7 @@
     "context_window": 1000000,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1140,7 +1153,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1153,7 +1166,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1166,7 +1179,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1179,7 +1192,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1192,7 +1205,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1205,7 +1218,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1218,7 +1231,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1231,7 +1244,7 @@
     "context_window": 1000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1244,7 +1257,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1257,7 +1270,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1270,7 +1283,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1283,7 +1296,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1296,7 +1309,7 @@
     "context_window": 1000000,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1309,7 +1322,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1322,7 +1335,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1335,7 +1348,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1348,7 +1361,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1361,7 +1374,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1374,7 +1387,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "llama_3_1_community_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1387,7 +1400,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1400,7 +1413,7 @@
     "context_window": 262144,
     "is_open_source": true,
     "license": "openmdw",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1413,7 +1426,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1426,7 +1439,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1439,7 +1452,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1452,7 +1465,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1465,7 +1478,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1478,7 +1491,7 @@
     "context_window": 262144,
     "is_open_source": true,
     "license": "nvidia_open_model_license_agreement",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1491,7 +1504,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1504,7 +1517,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1517,7 +1530,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1530,7 +1543,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1543,7 +1556,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1556,7 +1569,7 @@
     "context_window": 128000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1569,7 +1582,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1582,7 +1595,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1595,7 +1608,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1608,7 +1621,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1621,7 +1634,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1634,7 +1647,7 @@
     "context_window": 200000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1647,7 +1660,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1660,7 +1673,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1673,7 +1686,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1686,7 +1699,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1699,7 +1712,7 @@
     "context_window": 256000,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1712,7 +1725,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1725,7 +1738,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1738,7 +1751,7 @@
     "context_window": 128000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1751,7 +1764,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1764,7 +1777,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1777,7 +1790,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "llama_4_community_license_agreement",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1790,7 +1803,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1803,7 +1816,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1816,7 +1829,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1829,7 +1842,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1842,7 +1855,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit_+_model_license_(commercial_use_allowed)",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1855,7 +1868,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1868,7 +1881,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1881,7 +1894,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1894,7 +1907,7 @@
     "context_window": 256000,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1907,7 +1920,7 @@
     "context_window": 1048576,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1920,7 +1933,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "llama_3_1_community_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1933,7 +1946,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1946,7 +1959,7 @@
     "context_window": 1047576,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1959,7 +1972,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1972,7 +1985,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1981,11 +1994,11 @@
     "gpqa": 65.8,
     "aime_2025": 70.9,
     "input_usd_per_m": 0.1,
-    "output_usd_per_m": 0.44,
+    "output_usd_per_m": 0.3,
     "context_window": 128000,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -1998,7 +2011,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2011,7 +2024,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2024,7 +2037,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2037,7 +2050,7 @@
     "context_window": 1047576,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2050,7 +2063,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "creative_commons_attribution_4_0_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2063,7 +2076,7 @@
     "context_window": 262144,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2076,7 +2089,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "nvidia_open_model_license_agreement",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2089,7 +2102,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2102,7 +2115,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2115,7 +2128,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2128,7 +2141,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2141,7 +2154,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2154,7 +2167,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2167,7 +2180,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit_+_model_license_(commercial_use_allowed)",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2180,7 +2193,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2193,7 +2206,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2206,7 +2219,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "llama_4_community_license_agreement",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2219,7 +2232,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2232,7 +2245,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2245,7 +2258,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "llama_3_1_community_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2258,7 +2271,7 @@
     "context_window": 128000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2271,7 +2284,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2284,7 +2297,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2297,7 +2310,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2310,7 +2323,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2323,7 +2336,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2336,7 +2349,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2349,7 +2362,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "llama_3_1_community_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2362,7 +2375,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "llama_3_3_community_license_agreement",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2375,7 +2388,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2388,7 +2401,7 @@
     "context_window": 1047576,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2401,7 +2414,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2414,7 +2427,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2427,7 +2440,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2440,7 +2453,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "qwen",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2453,7 +2466,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2466,7 +2479,7 @@
     "context_window": 128000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2479,7 +2492,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2492,7 +2505,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2505,7 +2518,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "llama3_2",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2518,7 +2531,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2531,7 +2544,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2544,7 +2557,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2557,7 +2570,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2570,7 +2583,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2583,7 +2596,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2596,7 +2609,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2609,7 +2622,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2622,7 +2635,7 @@
     "context_window": 262100,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2635,7 +2648,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2648,7 +2661,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "gemma",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2661,7 +2674,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "tongyi_qianwen",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2674,7 +2687,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2687,7 +2700,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "llama_3_1_community_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2700,7 +2713,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2713,7 +2726,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "gemma",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2726,7 +2739,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2739,7 +2752,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2752,7 +2765,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2765,7 +2778,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2778,7 +2791,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2791,7 +2804,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2804,7 +2817,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "jamba_open_model_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2817,7 +2830,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2830,7 +2843,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2843,7 +2856,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2856,7 +2869,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2869,7 +2882,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2882,7 +2895,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2895,7 +2908,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2908,7 +2921,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "llama_3_2_community_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2921,7 +2934,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "llama_3_2_community_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2934,7 +2947,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "jamba_open_model_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2947,7 +2960,7 @@
     "context_window": 16385,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2960,7 +2973,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "gemma",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2973,7 +2986,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2986,7 +2999,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "llama_3_1_community_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -2999,7 +3012,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3012,7 +3025,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3025,7 +3038,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3038,7 +3051,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3051,7 +3064,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3064,7 +3077,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "gemma",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3077,7 +3090,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3090,7 +3103,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "gemma",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3103,7 +3116,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "gemma",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3116,7 +3129,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3129,7 +3142,7 @@
     "context_window": 1000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3142,7 +3155,7 @@
     "context_window": 1000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3155,7 +3168,7 @@
     "context_window": 1000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3168,7 +3181,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mnpl_0_1",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3181,7 +3194,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3194,7 +3207,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "cc_by_nc",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3207,7 +3220,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "deepseek",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3220,7 +3233,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "deepseek",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3233,7 +3246,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "deepseek",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3246,7 +3259,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3259,7 +3272,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "deepseek",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3272,7 +3285,7 @@
     "context_window": 131072,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3285,7 +3298,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3298,7 +3311,7 @@
     "context_window": 1048576,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3311,7 +3324,7 @@
     "context_window": 1048576,
     "is_open_source": true,
     "license": "unknown",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3324,7 +3337,7 @@
     "context_window": 1048576,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3337,7 +3350,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3350,7 +3363,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3363,7 +3376,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3376,7 +3389,7 @@
     "context_window": 200000,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3386,10 +3399,23 @@
     "aime_2025": null,
     "input_usd_per_m": 1.4,
     "output_usd_per_m": 4.4,
-    "context_window": 1000000,
+    "context_window": 1048576,
     "is_open_source": true,
     "license": "unknown",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
+    "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
+  },
+  {
+    "organization": "Zhipu AI",
+    "model": "GLM-5.3-Flash",
+    "gpqa": null,
+    "aime_2025": null,
+    "input_usd_per_m": 0.15,
+    "output_usd_per_m": 0.5,
+    "context_window": 1048576,
+    "is_open_source": true,
+    "license": "mit",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3402,7 +3428,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3415,7 +3441,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3428,7 +3454,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3441,7 +3467,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3454,7 +3480,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3467,7 +3493,7 @@
     "context_window": 400000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3480,7 +3506,7 @@
     "context_window": 400000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3493,7 +3519,7 @@
     "context_window": 128000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3506,7 +3532,7 @@
     "context_window": 400000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3519,7 +3545,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3532,7 +3558,7 @@
     "context_window": 400000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3545,7 +3571,7 @@
     "context_window": 1048576,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3558,7 +3584,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3571,7 +3597,7 @@
     "context_window": 1048576,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3584,7 +3610,7 @@
     "context_window": 1048576,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3597,7 +3623,7 @@
     "context_window": 1048576,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3610,7 +3636,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "gemma",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3623,7 +3649,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "gemma",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3636,7 +3662,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3649,7 +3675,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3662,7 +3688,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3675,7 +3701,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3688,7 +3714,7 @@
     "context_window": 1000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3701,7 +3727,7 @@
     "context_window": 500000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3714,7 +3740,7 @@
     "context_window": 256000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3727,7 +3753,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3740,7 +3766,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3753,7 +3779,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3766,7 +3792,7 @@
     "context_window": 2000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3779,7 +3805,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3792,7 +3818,7 @@
     "context_window": 2000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3805,7 +3831,7 @@
     "context_window": 2000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3818,7 +3844,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3831,7 +3857,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3844,7 +3870,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3857,7 +3883,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3870,7 +3896,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3883,7 +3909,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3891,12 +3917,12 @@
     "model": "Kimi K2.7 Code",
     "gpqa": null,
     "aime_2025": null,
-    "input_usd_per_m": 0.74,
-    "output_usd_per_m": 3.5,
-    "context_window": 262144,
+    "input_usd_per_m": null,
+    "output_usd_per_m": null,
+    "context_window": null,
     "is_open_source": true,
     "license": "modified_mit_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3909,7 +3935,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3922,7 +3948,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "lfm1_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3935,7 +3961,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "lfm1_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3948,7 +3974,7 @@
     "context_window": 1048576,
     "is_open_source": true,
     "license": "openmdw",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3961,7 +3987,7 @@
     "context_window": 262144,
     "is_open_source": true,
     "license": "openmdw",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3974,7 +4000,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "llama_3_1_community_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -3987,7 +4013,7 @@
     "context_window": 256000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4000,7 +4026,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "health_ai_developer_foundations_terms_of_use",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4013,7 +4039,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4026,7 +4052,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4039,7 +4065,7 @@
     "context_window": 1048576,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4052,7 +4078,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4065,7 +4091,7 @@
     "context_window": 1000000,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4078,7 +4104,7 @@
     "context_window": 204800,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4091,7 +4117,7 @@
     "context_window": 1000000,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4104,7 +4130,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4117,7 +4143,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4130,7 +4156,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4143,7 +4169,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4156,7 +4182,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4169,7 +4195,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4182,7 +4208,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mistral_research_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4195,7 +4221,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mistral_research_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4208,7 +4234,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4221,7 +4247,7 @@
     "context_window": 256000,
     "is_open_source": true,
     "license": "modified_mit_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4234,7 +4260,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4247,7 +4273,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mistral_research_license",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4260,7 +4286,7 @@
     "context_window": 1048576,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4273,7 +4299,7 @@
     "context_window": 1048576,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4286,7 +4312,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4299,7 +4325,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4312,7 +4338,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4325,7 +4351,7 @@
     "context_window": 1000000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4338,7 +4364,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4351,7 +4377,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mit",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4364,7 +4390,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "mistral_research_license_(mrl)_for_research;_mistral_commercial_license_for_commercial_use",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4377,7 +4403,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4390,7 +4416,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "qwen",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4403,7 +4429,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "tongyi_qianwen",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4416,7 +4442,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "tongyi_qianwen",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4429,7 +4455,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4442,7 +4468,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4455,7 +4481,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4464,11 +4490,11 @@
     "gpqa": null,
     "aime_2025": 72.9,
     "input_usd_per_m": 0.1,
-    "output_usd_per_m": 0.44,
+    "output_usd_per_m": 0.3,
     "context_window": 128000,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4481,7 +4507,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4494,7 +4520,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4507,7 +4533,7 @@
     "context_window": 262144,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4520,7 +4546,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4533,7 +4559,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4546,7 +4572,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4559,7 +4585,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4572,7 +4598,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "qwen3_8_max",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4585,7 +4611,7 @@
     "context_window": 256000,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4598,7 +4624,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4611,7 +4637,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4624,7 +4650,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4637,7 +4663,7 @@
     "context_window": 65536,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4650,7 +4676,7 @@
     "context_window": null,
     "is_open_source": true,
     "license": "apache_2_0",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4663,7 +4689,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   },
   {
@@ -4676,7 +4702,7 @@
     "context_window": null,
     "is_open_source": false,
     "license": "proprietary",
-    "as_of_date": "2026-08-26",
+    "as_of_date": "2026-08-27",
     "source_url": "https://llm-stats.com/leaderboards/llm-leaderboard"
   }
 ]
